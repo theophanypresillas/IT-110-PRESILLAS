@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sweet Bytes</title>
+</head>
+
+<body>
+
+    <h1 id="main-heading">Sweet Bytes</h1>
+
+    <h2>Images</h2>
+
+    <figure>
+        <img src="images/croissant.jpg"
+             alt="Freshly baked croissant"
+             width="300"
+             height="200">
+        <figcaption>Almond Croissant</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/cupcake.jpg"
+             alt="Strawberry cupcake"
+             width="300"
+             height="200">
+        <figcaption>Strawberry Cupcake</figcaption>
+    </figure>
+
+    <figure>
+        <img src="images/donut.jpg"
+             alt="Chocolate donut"
+             width="300"
+             height="200">
+        <figcaption>Chocolate Donut</figcaption>
+    </figure>
+
+
+    <h2>Hyperlinks</h2>
+
+    <a href="activity.html#html-dom">Go to HTML DOM</a>
+    <br>
+
+    <a href="https://pastryandbeyond.com/" target="_blank">
+        Visit Pastry and Beyond
+    </a>
+    <br>
+
+    <a href="mailto:sweetbytes@gmail.com">
+        Email Sweet Bytes
+    </a>
+    <br>
+
+    <a href="#multimedia">Go to Multimedia</a>
+
+
+    <h2 id="multimedia">Multimedia</h2>
+
+    <audio controls>
+        <source src="media/pastry-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <br><br>
+
+    <video controls width="400">
+        <source src="media/pastry-video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+
+    <h2>Useful Tags</h2>
+
+    <!-- blockquote is used to display a quotation. -->
+    <blockquote>
+        Sweet pastries make every day better!
+    </blockquote>
+
+    <!-- mark is used to highlight important text. -->
+    <p>
+        Our <mark>fresh pastries</mark> are made with love.
+    </p>
+
+    <!-- abbr is used to show an abbreviation and its full meaning. -->
+    <p>
+        We use <abbr title="HyperText Markup Language">HTML</abbr>
+        for this webpage.
+    </p>
+
+
+    <!-- 5. HTML DOM -->
+    <h2 id="html-dom">HTML DOM</h2>
+
+    <div id="dom-example">
+
+        <p id="dom-text">
+            The HTML DOM represents a webpage as a tree of elements.
+        </p>
+
+        <ul>
+            <li>Croissant</li>
+            <li>Cupcake</li>
+            <li>Donut</li>
+        </ul>
+
+    </div>
+
+
+    <!--
+    The body element is the parent of the main heading and the other elements on the page.
+    The div with the id "dom-example" is the parent of the paragraph and unordered list inside it.
+    The ul element is the parent of the li elements.
+    The li elements are children of the ul element.
+    These parent-child relationships show how HTML elements are organized in the DOM tree.
+    -->
+
+</body>
+
+</html>
